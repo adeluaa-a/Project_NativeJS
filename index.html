@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Квиз</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+  <h1 class="quiz-title">Квиз</h1>
+
+
+  <label for="languageSelect" class="lang-label">Выберите язык вопросов:</label>
+  <select id="languageSelect">
+    <option value="english">Английский</option>
+    <option value="russian">Русский</option>
+  </select>
+
+  <p id="loadingText">Загрузка вопросов...</p>
+
+  <button id="startGameBtn">Начать игру</button>
+
+  <div id="quizContent" style="display: none;">
+    <h2 id="questionNumber">Вопрос 1</h2>
+    <p id="questionText">Выберите один из вариантов ниже:</p>
+    <div id="answersContainer"></div>
+    <button id="nextQuestionBtn" disabled>Следующий вопрос</button>
+    <p id="scoreText">Правильных ответов: 0</p>
+  </div>
+
+  <img id="quizEndImage" src="kartinka.jpg" alt="Поздравляем!" style="display: none;">
+
+  <button id="restartGameBtn" style="display: none;">Сыграть заново</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

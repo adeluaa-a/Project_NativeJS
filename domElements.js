@@ -1,0 +1,11 @@
+export const languageSelectEl = document.getElementById('languageSelect');
+export const questionNumberEl = document.getElementById('questionNumber');
+export const questionTextEl = document.getElementById('questionText');
+export const answersContainerEl = document.getElementById('answersContainer');
+export const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+export const scoreTextEl = document.getElementById('scoreText');
+export const startGameBtn = document.getElementById('startGameBtn');
+export const quizContentEl = document.getElementById('quizContent');
+export const loadingTextEl = document.getElementById('loadingText');
+export const restartGameBtn = document.getElementById('restartGameBtn');
+export const quizEndImage = document.getElementById('quizEndImage'); // Изображение при завершении
